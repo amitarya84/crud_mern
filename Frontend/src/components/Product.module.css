@@ -1,0 +1,36 @@
+.card{
+    margin: 20px !important;
+    min-width: 300px !important;
+}
+.imageContainer{
+    width: 100%;
+    overflow: hidden;
+    max-height: 200px;
+}
+.imageContainer img{
+    width: 100%;
+    overflow: hidden;
+}
+.rowDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.cardOptionsIcon{
+    cursor: pointer;
+}
+.cardOptions{
+    position: absolute;
+    right: 0%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+.cardOptions li{
+    padding: 0 5px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.cardOptions li:hover{
+    background-color: #ccc;
+}

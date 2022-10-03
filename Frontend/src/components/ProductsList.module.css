@@ -1,0 +1,6 @@
+.ProductContainer{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}

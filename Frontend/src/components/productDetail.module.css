@@ -1,0 +1,9 @@
+.imageContainer{
+    display: flex !important;
+    overflow-x: scroll;
+}
+.imageContainer > img {
+    margin: 5px;
+    width: 100%;
+    height: auto !important;
+}
